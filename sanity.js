@@ -3,7 +3,7 @@ import {
     createImageUrlBuilder,
     createCurrentUserHook,
 } from "next-sanity"; 
-import imageUrlBuilder from "@sanity/image-url";
+// import imageUrlBuilder from "@sanity/image-url";
 
 export const config = {
 
@@ -34,7 +34,7 @@ export const sanityClient = createClient(config);
  * Set up a helper function for generating Image URLS with only the asset reference data in your documents.
  * Read more: https://www.sanity.io/docs/image-url
 **/
-export const urlFor = (source) => imageUrlBuilder(config).image(source);
+export const urlFor = (source) => createImageUrlBuilder(config).image(source);
 
 //Helper function for using the current logged in user account
 
