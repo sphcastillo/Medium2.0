@@ -2,7 +2,9 @@
 
 ## Description
 
-We are using Sanity to manage the backend. The data is fetched from Sanity and displayed on the frontend. The frontend is built with Next.js and Tailwind CSS. The frontend is deployed on Vercel. Fully responsive, built with incremental static regeneration. This static page is being dynamically updated every 60 seconds.
+This is a blog with travel content that can be maintained with ease. Form validation is in use. Users have the ability to leave comments and the client has the power to approve comments. 
+
+We are using Sanity CMS to manage the backend. The data is fetched from Sanity and displayed on the frontend. The frontend is built with Next.js and Tailwind CSS. The frontend is deployed on Vercel. Fully responsive, built with incremental static regeneration. This static page is being dynamically updated every 60 seconds.
 
 ## Requirements
 
