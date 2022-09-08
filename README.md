@@ -1,27 +1,38 @@
-# Next.js + Tailwind CSS Example
+# Medium 2.0
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Deploy your own
+## Description
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+We are using Sanity to manage the backend. The data is fetched from Sanity and displayed on the frontend. The frontend is built with Next.js and Tailwind CSS. The frontend is deployed on Vercel. Fully responsive, built with incremental static regeneration. This static page is being dynamically updated every 60 seconds.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Requirements
 
-## How to use
+NPM, ReactJS, Next.JS, Tailwind CSS, TypeScript, react-portable-text, react-hook-form, Sanity, @sanity/client
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Technologies & Methods Used
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+React, NextJS, TypeScript, Tailwind CSS, ISR, & Sanity CMS
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Github Repository
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+https://github.com/sphcastillo/medium2.0
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Deployed Sites
+
+Frontend:
+
+https://medium2-0-hazel.vercel.app/
+
+Backend:
+
+https://sanitybackmediumfront.sanity.studio/
+
+## More info
+
+Author: Sophia Castillo,
+Email: Sphcastillo@gmail.com,
+Professional website: www.builtbysophia.com,
+GitHub: https://github.com/sphcastillo,
+LinkedIn: https://www.linkedin.com/in/sophia-castillo-b89124133/
+
